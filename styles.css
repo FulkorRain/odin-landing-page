@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+}
+
+
+div.SectionOne , div.SectionFive {
+    background: #1f2937;
+}
+
+div.SectionTwo , div.SectionFour {
+    background: white;
+    padding: 50px;
+}
+
+div.SectionOne {
+ padding: 150px;
+ display: flex;
+}
+
+.Header {
+    display: flex;
+}
+
+div.SectionTwo {
+    padding: 100px;
+}
+
+div.SectionFour {
+    padding:100px;
+}
+
+div.SectionFive {
+    padding: 50px;
+}
+
+div.SectionThree {
+    background: #E5E7EB;
+    padding: 100px;
+}
