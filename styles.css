@@ -13,6 +13,7 @@ div.SectionOne , div.SectionFive {
 div.SectionTwo , div.SectionFour {
     background: white;
     padding: 50px;
+    flex-direction: column;
 }
 
 div.SectionOne {
@@ -21,7 +22,13 @@ div.SectionOne {
 }
 
 .Header {
+    color: #f9faf8;
+    font-size: 24px;
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: -250px;
 }
 
 div.SectionTwo {
@@ -39,4 +46,10 @@ div.SectionFive {
 div.SectionThree {
     background: #E5E7EB;
     padding: 100px;
+}
+
+a {
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
 }
