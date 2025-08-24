@@ -1,55 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@100..900&display=swap');
+
 body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sectionOne{
+    background-color: #1F2937;
+}
+
+.sectionOne .nav-bar{
     display: flex;
-    flex-direction: column;
-    padding:0;
-    margin:0;
+    padding: 10px 20px;
 }
 
-
-div.SectionOne , div.SectionFive {
-    background: #1f2937;
-}
-
-div.SectionTwo , div.SectionFour {
-    background: white;
-    padding: 50px;
-    flex-direction: column;
-}
-
-div.SectionOne {
- padding: 150px;
- display: flex;
-}
-
-.Header {
-    color: #f9faf8;
+.sectionOne .left-side{
     font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
     display: flex;
-    justify-content:space-between;
+    flex: 1;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    margin-top: -250px;
 }
 
-div.SectionTwo {
-    padding: 100px;
+.sectionOne .right-side{
+    font-size: 18px;
+    display:flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
-div.SectionFour {
-    padding:100px;
+ul{
+    display: flex;
 }
 
-div.SectionFive {
-    padding: 50px;
-}
-
-div.SectionThree {
-    background: #E5E7EB;
-    padding: 100px;
+.sectionOne .right-side ul{
+    gap:50px
 }
 
 a {
     text-decoration: none;
     color:#E5E7EB;
+}
+
+.sectionOne .content{
+    display: flex;
+    padding: 40px 80px;
+}
+
+.sectionOne .left-side-content {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sectionOne .right-side-content {
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOne .left-side-content h1{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight:900;
+    margin-bottom: -10px;
+}
+
+.sectionOne .left-side-content p{
     font-size: 18px;
+    color:#E5E7EB;
+    
+}
+
+#signup-button{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: 700;
+    border:none;
+    padding: 10px 32px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor:pointer;
+    transition: transform 0.1s ease-out, background-color 0.1s ease-out;
+}
+
+#signup-button:hover{
+    background-color: #2957a1;
+    color:#E5E7EB;
+}
+
+#signup-button:active{
+  transform: scale(0.95);
+  background-color: #0056b3;
 }
