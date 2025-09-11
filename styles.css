@@ -103,6 +103,10 @@ a {
   background-color: #0056b3;
 }
 
+.sectionTwo{
+    padding: 150px 450px;
+}
+
 .sectionTwoHeader{
     display: flex;
     justify-content: center;
@@ -122,3 +126,57 @@ a {
     border: solid #0056b3;
     border-radius: 12px;
 }
+
+.sectionThree{
+    background-color: #E5E7EB;
+    padding: 150px 450px;
+}
+
+.quoteText{
+    justify-self: center;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;
+
+}
+.quoteAuthor{
+    justify-self: end;
+    font-weight: 900;
+    font-size: 24px;
+    color:#1F2937;
+}
+
+.sectionFour{
+    padding: 150px 450px;
+}
+
+.box{
+    background-color:#3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.box h1{
+    color: #F9FAF8;
+}
+
+.box-subtext{
+    display: flex;
+    gap: 100px;
+}
+
+.box-subtext p{
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+.box-subtext button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    padding: 5px 30px;
+    border-radius: 10px;
+    
+}
+
